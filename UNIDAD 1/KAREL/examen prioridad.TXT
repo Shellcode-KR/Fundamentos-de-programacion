@@ -1,0 +1,103 @@
+iniciar-programa
+define-nueva-instruccion derecha como inicio
+    repetir 3 veces inicio
+    gira-izquierda
+    fin;
+    fin;
+
+define-nueva-instruccion avanza-recoge como inicio
+    mientras frente-libre hacer inicio
+mientras junto-a-zumbador hacer inicio
+coge-zumbador;
+fin;
+avanza;
+fin;
+fin;
+
+define-nueva-instruccion volver como inicio
+gira-izquierda;
+gira-izquierda;
+mientras frente-libre hacer inicio
+avanza;
+fin;
+fin;
+
+define-nueva-instruccion vuelta-n como inicio
+
+avanza-recoge;
+volver;
+mientras algun-zumbador-en-la-mochila hacer inicio
+deja-zumbador;
+fin;
+gira-izquierda;
+fin;
+
+define-nueva-instruccion mascolumna como inicio
+mientras frente-libre hacer inicio
+avanza;
+gira-izquierda;
+vuelta-n;
+fin;
+fin;
+
+define-nueva-instruccion voltear como inicio
+repetir 2 veces inicio
+gira-izquierda;
+fin;
+fin;
+
+define-nueva-instruccion zuum como inicio
+ mientras frente-libre hacer inicio
+ deja-zumbador;
+   avanza;
+   fin;
+   fin;
+
+define-nueva-instruccion subir-fila-2 como inicio
+si izquierda-libre entonces inicio
+gira-izquierda;
+deja-zumbador;
+avanza;
+gira-izquierda;
+fin;
+fin;
+
+define-nueva-instruccion subir-fila-1 como inicio
+si derecha-libre entonces inicio
+derecha;
+deja-zumbador;
+avanza;
+derecha;
+fin;
+fin;
+
+
+define-nueva-instruccion bip como inicio
+mientras algun-zumbador-en-la-mochila hacer inicio
+zuum;
+subir-fila-1;
+zuum;
+subir-fila-2;
+fin;
+fin;
+
+inicia-ejecucion
+    gira-izquierda;
+    vuelta-n;
+   mascolumna;
+   volver;
+   voltear;
+   avanza-recoge;
+   mientras junto-a-zumbador hacer inicio
+   coge-zumbador;
+   fin;
+   voltear;
+   bip;
+
+
+
+
+
+    apagate;
+    termina-ejecucion
+finalizar-programa

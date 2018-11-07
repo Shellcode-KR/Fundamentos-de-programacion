@@ -1,0 +1,10 @@
+iniciar-programa
+    inicia-ejecucion
+define-nueva-instruccion [(derecha)] como inicio
+gira-izquierda;
+gira-izquierda;
+gira-izquierda;
+fin;
+gira-derecha;
+
+

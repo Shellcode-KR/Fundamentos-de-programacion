@@ -1,0 +1,8 @@
+iniciar-programa
+    inicia-ejecucion
+    mientras frente-libre hacer inicio
+    avanza;
+    fin;
+        apagate;
+    termina-ejecucion
+finalizar-programa
