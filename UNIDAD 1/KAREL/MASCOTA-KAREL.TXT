@@ -1,0 +1,22 @@
+iniciar-programa
+    inicia-ejecucion
+    si orientado-al-oeste entonces inicio
+        gira-izquierda;
+        gira-izquierda;
+    fin;
+    mientras no-junto-a-zumbador hacer inicio
+    avanza;
+    fin;
+    avanza;
+    gira-izquierda;
+    avanza;
+repetir 4 veces inicio
+    gira-izquierda;
+    avanza;
+    deja-zumbador;
+    avanza;
+    deja-zumbador;
+    fin;
+        apagate;
+    termina-ejecucion
+finalizar-programa
