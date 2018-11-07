@@ -1,0 +1,14 @@
+iniciar-programa
+    inicia-ejecucion
+    repetir 4 veces inicio
+    mientras frente-libre hacer inicio
+        avanza;
+    fin;
+    deja-zumbador;
+    repetir 3 veces inicio
+    gira-izquierda;
+           fin;
+                fin;
+        apagate;
+    termina-ejecucion
+finalizar-programa
