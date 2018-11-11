@@ -6,3 +6,5 @@ numero = 5;
 decimal = 4.6;
 cadena = "texton salto de linea";
 interruptor = false;
+// OPERARODES RELACIONALES
+// OPERACIONES LOGICOS
