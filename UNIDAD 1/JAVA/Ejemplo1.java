@@ -6,12 +6,13 @@ class ejemplo1{
 		int total=0;
 
 		for (int contador=0; contador<4; contador=contador+1) {
-			precioproducto = Integer.parseInt( JOptionPane.showInputDialog("Precio del producto:"));
+			precioproducto = Integer.parseInt( JOptionPane.showInputDialog("Precio del producto:\nMaximo 4 productos"));
 			total=total+precioproducto;
-			System.out.println(total);
+			
 		}
+		System.out.println("El total fue "+total);
 
-System.out.println("gracias por su compra");
+System.out.println("Gracias por su compra");
 
 	}
 }
